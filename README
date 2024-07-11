@@ -1,0 +1,11 @@
+## FFProxy
+
+Firefox extension to automatically switch between no proxy / manual proxy
+
+
+# Installation
+
+1. Go to the webpage `about:debugging`
+2. Choose `This firefox` on the left bar
+3. Select `Load Temporary add-ons` and pick the manifesto
+
