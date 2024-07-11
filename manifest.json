@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "FFProxy",
+  "version": "1.0",
+
+  "description": "Toggles the proxy mode between no proxy / manual proxy.",
+
+  "icons": {
+    "48": "icons/ffproxy-48.png",
+    "96": "icons/ffproxy-96.png"
+  },
+
+  "background": {
+    "scripts": [
+    "ffproxy.js"
+    ]
+  },
+
+  "permissions": [
+	  "activeTab",
+  	  "proxy"],
+
+  "browser_action": {
+    "default_icon": "icons/ffproxy-48.png",
+    "default_title": "FFproxy"
+  }
+}
