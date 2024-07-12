@@ -9,3 +9,8 @@ Firefox extension to automatically switch between no proxy / manual proxy
 2. Choose `This firefox` on the left bar
 3. Select `Load Temporary add-ons` and pick the manifesto
 
+
+# To run 
+
+1. In a terminal, connect by SSH using port 8080 e.g. `ssh -D 8080 user@server`
+2. In firefox -> click the logo. When red, it goes through the tunnel, when white no proxy
